@@ -6,7 +6,7 @@ Files created while working on [Swift in 60 seconds](https://www.hackingwithswif
 
 ### Simple types
 
-Variables,  Strings and integers, Multi-line strings, Doubles and booleans, String interpolation, Constants, Type annotations
+Variables,  Strings and integers, Multi-line strings, Doubles and booleans, String interpolation, Constants, Type annotations 
 [Link to code](1-Simple-types/1-simple-types.playground/Contents.swift)
 
 ### Complex types
@@ -36,13 +36,12 @@ Creating basic closures, Accepting parameters in a closure, Returning values fro
 
 ### Structs
 
-Creating your own structs, Computed properties, Property observers, Methods, Mutating methods, Properties and methods of strings, Properties and methods of arrays, Initializers, Referring to the current instance, Lazy properties, Static properties and methods, Access control
+Creating your own structs, Computed properties, Property observers, Methods, Mutating methods, Properties and methods of strings, Properties and methods of arrays, Initializers, Referring to the current instance,Lazy properties, Static properties and methods, Access control
 [Link to code](7-struts/7-struts.playground/Contents.swift)
 
 ### Classes
 
 Creating your own classes, Class inheritance, Overriding methods, Final classes, Copying objects, Deinitializers, Mutability
-
 [Link to code](8-classes/8-classes.playground/Contents.swift)
 
 ### Protocols and extensions
@@ -53,4 +52,5 @@ Protocols, Protocol inheritance, Extensions, Protocol extensions, Protocol-orien
 ### Optionals
 
 Handling missing data, Unwrapping optionals, Unwrapping with guard, Force unwrapping, Implicitly unwrapped optionals, Nil coalescing, Optional chaining, Optional try, Failable initializers, Typecasting
+
 [Link to code](10-optionals/10-optionals.playground/Contents.swift)
