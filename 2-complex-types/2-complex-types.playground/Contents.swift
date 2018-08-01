@@ -37,15 +37,13 @@ let heights = [
     "test": 200
 ]
 
-// TODO: This is not fully working. Review at optional chapter
-print("(print) Taylor Swift heigth: ", heights["Taylor Swift"])
+// Updated with force unwrapp !
+print("(print) Taylor Swift heigth: ", heights["Taylor Swift"]!)
 
-// TODO: This is not fully working. Review at optional chapter
-let height = heights["Taylor Swift"]! // Force unwrap of optional value
+let height = heights["Taylor Swift"]!
 NSLog("(first NSLog) Taylor Swift heigth: %@", height)
 
-// TODO: This is not fully working. Review at optional chapter
-let height2 = heights["Taylor Swift"] ?? 0.0 // Force unwrap of optional value
+let height2 = heights["Taylor Swift"]!
 NSLog("(second NSLog) Taylor Swift heigth: %@", height2)
 
 // Enumerations
