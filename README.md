@@ -12,7 +12,8 @@ Variables,  Strings and integers, Multi-line strings, Doubles and booleans, Stri
 
 ### Complex types
 
-Arrays, Sets, Tuples, Arrays vs sets vs tuples, Dictionaries, Dictionary default values, Creating empty collections, Enumerations, Enum associated values, Enum raw values 
+Arrays, Sets, Tuples, Arrays vs sets vs tuples, Dictionaries, Dictionary default values, Creating empty collections, Enumerations, Enum associated values, Enum raw values
+
 [Link to code](2-complex-types/2-complex-types.playground/Contents.swift)
 
 ### Operators and conditions
