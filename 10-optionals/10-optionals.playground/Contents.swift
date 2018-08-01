@@ -73,13 +73,71 @@ let beatle = names.first?.uppercased()
 
 
 // Optional try
+// -- required 5-functions code
+enum PasswordError: Error {
+    case obvious
+}
 
+func checkPassword(_ password: String) throws -> Bool {
+    if password == "password" {
+        throw PasswordError.obvious
+    }
+    return true
+}
+
+do {
+    try checkPassword("password")
+    print("That password is good")
+} catch {
+    print("You can't use that password")
+}
+// -- required 5-functions code
+
+if let result = try? checkPassword("password") {
+    print("Result was \(result)")
+} else {
+    print("D'oh.")
+}
+
+if let result = try? checkPassword("password") {
+    print("Result was \(result)")
+} else {
+    print("D'oh.")
+}
+
+try! checkPassword("Epeuva password") // If checkpassword returns nil, this will crash
+print("OK!")
 
 
 // Failable initializers
+let str4 = "5"
+let num4 = Int(str4) // num4 is an optional Int
 
+struct Person {
+    var id: String
+    
+    init?(id: String) { // Init returns nil if something went wrong
+        if id.count == 9 {
+            self.id = id
+        } else {
+            return nil
+        }
+    }
+}
 
 
 // Typecasting
+class Animal {}
+class Fish: Animal {}
+class Dog: Animal {
+    func makeNoise() {
+        print("Woof!")
+    }
+}
 
-
+let pets = [Fish(), Dog(), Fish(), Dog()]
+for pet in pets {
+    if let dog = pet as? Dog { // Only Dogs have method to make noise
+        dog.makeNoise()
+    }
+}
